@@ -11,3 +11,148 @@
 2025-05-08 01:46:07,501 - ERROR - Error generating overall files: [Errno 13] Permission denied: 'output\\op_seats_left.xlsx'
 2025-05-08 01:46:07,501 - ERROR - Error generating output files: [Errno 13] Permission denied: 'output\\op_seats_left.xlsx'
 2025-05-08 01:46:07,501 - ERROR - Error in main execution: [Errno 13] Permission denied: 'output\\op_seats_left.xlsx'
+2025-05-30 11:42:27,310 - ERROR - Error allocating rooms for CB204: 'adjusted_capacity'
+2025-05-30 11:42:27,310 - ERROR - Error allocating seats: 'adjusted_capacity'
+2025-05-30 11:42:27,310 - ERROR - Error in main execution: 'adjusted_capacity'
+2025-05-30 11:49:44,950 - ERROR - Validation error in in_roll_name_mapping: Missing required column 'roll' in sheet in_roll_name_mapping
+2025-05-30 11:49:44,950 - ERROR - Error loading data from sorted_output_file.xlsx: Missing required column 'roll' in sheet in_roll_name_mapping
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 63, in load_data
+    self.validate_input_data()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 93, in validate_input_data
+    raise ValueError(f"Missing required column '{col}' in sheet {sheet}")
+ValueError: Missing required column 'roll' in sheet in_roll_name_mapping
+2025-05-30 11:49:44,950 - ERROR - Error in main execution: Missing required column 'roll' in sheet in_roll_name_mapping
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 620, in main
+    seating_system.load_data(input_file)
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 63, in load_data
+    self.validate_input_data()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 93, in validate_input_data
+    raise ValueError(f"Missing required column '{col}' in sheet {sheet}")
+ValueError: Missing required column 'roll' in sheet in_roll_name_mapping
+2025-05-30 11:54:05,220 - ERROR - Validation error in in_roll_name_mapping: Missing required column 'name' in sheet in_roll_name_mapping
+2025-05-30 11:54:05,220 - ERROR - Error loading data from sorted_output_file.xlsx: Missing required column 'name' in sheet in_roll_name_mapping
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 63, in load_data
+    self.validate_input_data()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 93, in validate_input_data
+    raise ValueError(f"Missing required column '{col}' in sheet {sheet}")
+ValueError: Missing required column 'name' in sheet in_roll_name_mapping
+2025-05-30 11:54:05,220 - ERROR - Error in main execution: Missing required column 'name' in sheet in_roll_name_mapping
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 620, in main
+    seating_system.load_data(input_file)
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 63, in load_data
+    self.validate_input_data()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 93, in validate_input_data
+    raise ValueError(f"Missing required column '{col}' in sheet {sheet}")
+ValueError: Missing required column 'name' in sheet in_roll_name_mapping
+2025-05-30 12:01:56,406 - ERROR - Error allocating rooms for ME312: 
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 335, in allocate_subject_rooms
+    self.seating_arrangement.append({
+MemoryError
+2025-05-30 12:01:56,439 - ERROR - Error allocating seats: 
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 262, in allocate_seats
+    self.allocate_subject_rooms(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 335, in allocate_subject_rooms
+    self.seating_arrangement.append({
+MemoryError
+2025-05-30 12:01:56,439 - ERROR - Error in main execution: 
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 633, in main
+    seating_system.allocate_seats()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 262, in allocate_seats
+    self.allocate_subject_rooms(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 335, in allocate_subject_rooms
+    self.seating_arrangement.append({
+MemoryError
+2025-05-30 12:19:25,959 - ERROR - Error allocating rooms for ME312: 
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 401, in allocate_subject_rooms
+    self.seating_arrangement.append({
+MemoryError
+2025-05-30 12:19:26,000 - ERROR - Error allocating seats: 
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 292, in allocate_seats
+    self.allocate_subject_rooms(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 401, in allocate_subject_rooms
+    self.seating_arrangement.append({
+MemoryError
+2025-05-30 12:19:26,000 - ERROR - Error in main execution: 
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 699, in main
+    seating_system.allocate_seats()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 292, in allocate_seats
+    self.allocate_subject_rooms(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 401, in allocate_subject_rooms
+    self.seating_arrangement.append({
+MemoryError
+2025-05-30 12:24:44,631 - ERROR - Error allocating rooms for CB204: name 'csv' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 401, in allocate_subject_rooms
+    self.write_allocation_to_file({
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 444, in write_allocation_to_file
+    writer = csv.DictWriter(f, fieldnames=allocation.keys())
+             ^^^
+NameError: name 'csv' is not defined. Did you forget to import 'csv'
+2025-05-30 12:24:44,633 - ERROR - Error allocating seats: name 'csv' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 292, in allocate_seats
+    self.allocate_subject_rooms(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 401, in allocate_subject_rooms
+    self.write_allocation_to_file({
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 444, in write_allocation_to_file
+    writer = csv.DictWriter(f, fieldnames=allocation.keys())
+             ^^^
+NameError: name 'csv' is not defined. Did you forget to import 'csv'
+2025-05-30 12:24:44,633 - ERROR - Error in main execution: name 'csv' is not defined
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 710, in main
+    seating_system.allocate_seats()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 292, in allocate_seats
+    self.allocate_subject_rooms(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 401, in allocate_subject_rooms
+    self.write_allocation_to_file({
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 444, in write_allocation_to_file
+    writer = csv.DictWriter(f, fieldnames=allocation.keys())
+             ^^^
+NameError: name 'csv' is not defined. Did you forget to import 'csv'
+2025-05-30 12:52:15,666 - ERROR - Error generating attendance sheet for CB204 in 10502: 'str' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 663, in generate_attendance_sheet
+    f"Date: {date.strftime('%d-%m-%Y')}",
+             ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+2025-05-30 12:52:15,670 - ERROR - Error generating per-date files: 'str' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 614, in generate_per_date_files
+    self.generate_attendance_sheet(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 663, in generate_attendance_sheet
+    f"Date: {date.strftime('%d-%m-%Y')}",
+             ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+2025-05-30 12:52:15,670 - ERROR - Error generating output files: 'str' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 538, in generate_output_files
+    self.generate_per_date_files(output_folder)
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 614, in generate_per_date_files
+    self.generate_attendance_sheet(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 663, in generate_attendance_sheet
+    f"Date: {date.strftime('%d-%m-%Y')}",
+             ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
+2025-05-30 12:52:15,670 - ERROR - Error in main execution: 'str' object has no attribute 'strftime'
+Traceback (most recent call last):
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 770, in main
+    seating_system.generate_output_files()
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 538, in generate_output_files
+    self.generate_per_date_files(output_folder)
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 614, in generate_per_date_files
+    self.generate_attendance_sheet(
+  File "C:\Users\Vivek Vasani\OneDrive\Desktop\Intern Proj - Optimal Seating Arrangement\Intern Proj\algo.py", line 663, in generate_attendance_sheet
+    f"Date: {date.strftime('%d-%m-%Y')}",
+             ^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'strftime'
